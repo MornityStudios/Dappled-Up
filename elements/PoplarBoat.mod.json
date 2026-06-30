@@ -1,0 +1,15 @@
+{
+  "_fv": 85,
+  "_type": "specialentity",
+  "definition": {
+    "entityType": "Boat",
+    "name": "Poplar Boat",
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:DappledUpTab"
+      }
+    ],
+    "entityTexture": "poplar_boat",
+    "itemTexture": "poplar_boat"
+  }
+}

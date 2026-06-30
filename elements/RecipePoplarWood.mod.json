@@ -1,0 +1,49 @@
+{
+  "_fv": 85,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 3,
+    "group": "bark",
+    "unlockingItems": [],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "BUILDING",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:PoplarLog"
+      },
+      {
+        "value": "CUSTOM:PoplarLog"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:PoplarLog"
+      },
+      {
+        "value": "CUSTOM:PoplarLog"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:PoplarWood"
+    },
+    "name": "recipe_poplar_wood",
+    "namespace": "mod"
+  }
+}
