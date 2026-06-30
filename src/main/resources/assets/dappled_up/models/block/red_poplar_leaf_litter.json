@@ -1,0 +1,9 @@
+{
+  "parent": "dappled_up:custom/poplar_leaf_litter_1",
+  "textures": {
+    "all": "dappled_up:block/red_poplar_leaves",
+    "particle": "dappled_up:block/red_poplar_leaves",
+    "0": "dappled_up:block/red_poplar_leaves"
+  },
+  "render_type": "cutout"
+}

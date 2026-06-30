@@ -1,0 +1,9 @@
+{
+  "parent": "dappled_up:custom/carpet",
+  "textures": {
+    "all": "dappled_up:block/red_moss_block",
+    "particle": "dappled_up:block/red_moss_block",
+    "wool": "dappled_up:block/red_moss_block"
+  },
+  "render_type": "solid"
+}

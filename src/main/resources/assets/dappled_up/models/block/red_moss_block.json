@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "dappled_up:block/red_moss_block",
+    "up": "dappled_up:block/red_moss_block",
+    "north": "dappled_up:block/red_moss_block",
+    "east": "dappled_up:block/red_moss_block",
+    "south": "dappled_up:block/red_moss_block",
+    "west": "dappled_up:block/red_moss_block",
+    "particle": "dappled_up:block/red_moss_block"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "dappled_up:block/poplar_log",
+    "up": "dappled_up:block/poplar_log",
+    "north": "dappled_up:block/poplar_log",
+    "east": "dappled_up:block/poplar_log",
+    "south": "dappled_up:block/poplar_log",
+    "west": "dappled_up:block/poplar_log",
+    "particle": "dappled_up:block/poplar_log"
+  },
+  "render_type": "solid"
+}

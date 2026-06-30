@@ -1,0 +1,9 @@
+{
+  "parent": "dappled_up:custom/poplar_leaf_bush",
+  "textures": {
+    "all": "dappled_up:block/red_poplar_leaves",
+    "particle": "dappled_up:block/red_poplar_leaves",
+    "crop": "dappled_up:block/red_poplar_leaf_bush"
+  },
+  "render_type": "cutout"
+}

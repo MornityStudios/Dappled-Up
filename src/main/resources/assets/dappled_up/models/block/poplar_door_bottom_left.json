@@ -1,0 +1,9 @@
+{
+  "parent": "block/door_bottom_left",
+  "textures": {
+    "particle": "dappled_up:block/poplar_door_bottom",
+    "bottom": "dappled_up:block/poplar_door_bottom",
+    "top": "dappled_up:block/poplar_door_top"
+  },
+  "render_type": "cutout"
+}

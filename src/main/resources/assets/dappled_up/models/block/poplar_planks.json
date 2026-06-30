@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "dappled_up:block/poplar_planks",
+    "up": "dappled_up:block/poplar_planks",
+    "north": "dappled_up:block/poplar_planks",
+    "east": "dappled_up:block/poplar_planks",
+    "south": "dappled_up:block/poplar_planks",
+    "west": "dappled_up:block/poplar_planks",
+    "particle": "dappled_up:block/poplar_planks"
+  },
+  "render_type": "solid"
+}

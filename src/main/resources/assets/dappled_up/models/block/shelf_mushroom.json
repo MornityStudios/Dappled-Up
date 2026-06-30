@@ -1,0 +1,9 @@
+{
+  "parent": "dappled_up:custom/shelf_mushroom_stage0",
+  "textures": {
+    "all": "dappled_up:block/shelf_mushroom_stage0",
+    "particle": "dappled_up:block/shelf_mushroom_stage0",
+    "small": "dappled_up:block/shelf_mushroom_stage0"
+  },
+  "render_type": "solid"
+}

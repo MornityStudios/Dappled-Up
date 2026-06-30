@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "dappled_up:block/red_poplar_leaves",
+    "particle": "dappled_up:block/red_poplar_leaves"
+  }
+}
