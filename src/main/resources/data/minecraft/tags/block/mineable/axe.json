@@ -1,0 +1,18 @@
+{
+  "replace": false,
+  "values": [
+    "dappled_up:poplar_sign",
+    "dappled_up:stripped_poplar_wood",
+    "dappled_up:poplar_log",
+    "dappled_up:poplar_fence_gate",
+    "dappled_up:poplar_hanging_sign",
+    "dappled_up:poplar_stairs",
+    "dappled_up:stripped_poplar_log",
+    "dappled_up:poplar_wall_sign",
+    "dappled_up:poplar_wood",
+    "dappled_up:poplar_wall_hanging_sign",
+    "dappled_up:poplar_fence",
+    "dappled_up:poplar_slab",
+    "dappled_up:poplar_planks"
+  ]
+}
