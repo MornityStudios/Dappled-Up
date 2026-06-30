@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "dappled_up:block/yellow_poplar_sapling"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "dappled_up:item/shelf_mushroom"
+  },
+  "render_type": "translucent"
+}

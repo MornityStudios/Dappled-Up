@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "dappled_up:item/red_poplar_leaves"
+  },
+  "render_type": "translucent"
+}
