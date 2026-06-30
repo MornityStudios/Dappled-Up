@@ -1,0 +1,41 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="Not specified"
+
+[[mods]]
+modId="dappled_up"
+version="1.0"
+displayName="Dappled Up"
+displayURL="https://minecraft.net"
+logoFile="logo.png"
+credits="Mojang"
+authors="Mornity"
+description="This mod backports and revamps the \"Dappled Forest\"! Experience the forest with a fresh new look including new moss, more foliage, and more!"
+enumExtensions="META-INF/enumextensions.json"
+
+# Start of user code block mod configuration
+# End of user code block mod configuration
+
+
+# Start of user code block custom mixins
+# End of user code block custom mixins
+
+[[dependencies.dappled_up]]
+    modId="neoforge"
+    type="required"
+    versionRange="[21.1.190,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.dappled_up]]
+    modId="minecraft"
+    type="required"
+    versionRange="[1.21.1]"
+    ordering="AFTER"
+    side="BOTH"
+
+
+
+
+# Start of user code block dependencies configuration
+# End of user code block dependencies configuration
