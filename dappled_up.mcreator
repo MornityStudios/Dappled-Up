@@ -1,0 +1,1523 @@
+{
+  "mod_elements": [
+    {
+      "name": "DappledForest",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dappled_forest",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dappled_up/worldgen/biome/dappled_forest.json"
+        ]
+      }
+    },
+    {
+      "name": "PoplarLog",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "poplar_log",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mornity/dappledup/block/PoplarLogBlock.java",
+          "src/main/resources/assets/dappled_up/models/item/poplar_log.json",
+          "src/main/resources/data/dappled_up/loot_table/blocks/poplar_log.json",
+          "src/main/resources/assets/dappled_up/blockstates/poplar_log.json",
+          "src/main/resources/assets/dappled_up/models/block/poplar_log.json"
+        ]
+      }
+    },
+    {
+      "name": "RedPoplarLeaves",
+      "type": "block",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "red_poplar_leaves",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dappled_up/loot_table/blocks/red_poplar_leaves.json",
+          "src/main/resources/assets/dappled_up/blockstates/red_poplar_leaves.json",
+          "src/main/resources/assets/dappled_up/models/block/red_poplar_leaves.json",
+          "src/main/java/net/mornity/dappledup/block/RedPoplarLeavesBlock.java",
+          "src/main/resources/assets/dappled_up/models/item/red_poplar_leaves.json"
+        ]
+      }
+    },
+    {
+      "name": "RedPoplar",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "red_poplar",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dappled_up/worldgen/configured_feature/red_poplar.json",
+          "src/main/resources/data/dappled_up/neoforge/biome_modifier/red_poplar_biome_modifier.json",
+          "src/main/resources/data/dappled_up/worldgen/placed_feature/red_poplar.json"
+        ]
+      }
+    },
+    {
+      "name": "YellowPoplarLeaves",
+      "type": "block",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "yellow_poplar_leaves",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dappled_up/models/block/yellow_poplar_leaves.json",
+          "src/main/resources/assets/dappled_up/blockstates/yellow_poplar_leaves.json",
+          "src/main/java/net/mornity/dappledup/block/YellowPoplarLeavesBlock.java",
+          "src/main/resources/data/dappled_up/loot_table/blocks/yellow_poplar_leaves.json",
+          "src/main/resources/assets/dappled_up/models/item/yellow_poplar_leaves.json"
+        ]
+      }
+    },
+    {
+      "name": "OrangePoplarLeaves",
+      "type": "block",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "orange_poplar_leaves",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mornity/dappledup/block/OrangePoplarLeavesBlock.java",
+          "src/main/resources/assets/dappled_up/models/item/orange_poplar_leaves.json",
+          "src/main/resources/assets/dappled_up/blockstates/orange_poplar_leaves.json",
+          "src/main/resources/data/dappled_up/loot_table/blocks/orange_poplar_leaves.json",
+          "src/main/resources/assets/dappled_up/models/block/orange_poplar_leaves.json"
+        ]
+      }
+    },
+    {
+      "name": "YellowPoplar",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "yellow_poplar",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dappled_up/neoforge/biome_modifier/yellow_poplar_biome_modifier.json",
+          "src/main/resources/data/dappled_up/worldgen/placed_feature/yellow_poplar.json",
+          "src/main/resources/data/dappled_up/worldgen/configured_feature/yellow_poplar.json"
+        ]
+      }
+    },
+    {
+      "name": "OrangePoplar",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "orange_poplar",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dappled_up/worldgen/placed_feature/orange_poplar.json",
+          "src/main/resources/data/dappled_up/neoforge/biome_modifier/orange_poplar_biome_modifier.json",
+          "src/main/resources/data/dappled_up/worldgen/configured_feature/orange_poplar.json"
+        ]
+      }
+    },
+    {
+      "name": "RedPoplarLeafBush",
+      "type": "block",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "red_poplar_leaf_bush",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dappled_up/loot_table/blocks/red_poplar_leaf_bush.json",
+          "src/main/resources/assets/dappled_up/models/block/red_poplar_leaf_bush.json",
+          "src/main/java/net/mornity/dappledup/block/RedPoplarLeafBushBlock.java",
+          "src/main/resources/assets/dappled_up/models/item/red_poplar_leaf_bush.json",
+          "src/main/resources/assets/dappled_up/blockstates/red_poplar_leaf_bush.json"
+        ]
+      }
+    },
+    {
+      "name": "YellowPoplarLeafBush",
+      "type": "block",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "yellow_poplar_leaf_bush",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mornity/dappledup/block/YellowPoplarLeafBushBlock.java",
+          "src/main/resources/data/dappled_up/loot_table/blocks/yellow_poplar_leaf_bush.json",
+          "src/main/resources/assets/dappled_up/models/item/yellow_poplar_leaf_bush.json",
+          "src/main/resources/assets/dappled_up/models/block/yellow_poplar_leaf_bush.json",
+          "src/main/resources/assets/dappled_up/blockstates/yellow_poplar_leaf_bush.json"
+        ]
+      }
+    },
+    {
+      "name": "OrangePoplarLeafBush",
+      "type": "block",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "orange_poplar_leaf_bush",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dappled_up/models/block/orange_poplar_leaf_bush.json",
+          "src/main/java/net/mornity/dappledup/block/OrangePoplarLeafBushBlock.java",
+          "src/main/resources/assets/dappled_up/models/item/orange_poplar_leaf_bush.json",
+          "src/main/resources/assets/dappled_up/blockstates/orange_poplar_leaf_bush.json",
+          "src/main/resources/data/dappled_up/loot_table/blocks/orange_poplar_leaf_bush.json"
+        ]
+      }
+    },
+    {
+      "name": "CoarseDirtDappledForest",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coarse_dirt_dappled_forest",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dappled_up/neoforge/biome_modifier/coarse_dirt_dappled_forest_biome_modifier.json",
+          "src/main/resources/data/dappled_up/worldgen/placed_feature/coarse_dirt_dappled_forest.json",
+          "src/main/resources/data/dappled_up/worldgen/configured_feature/coarse_dirt_dappled_forest.json"
+        ]
+      }
+    },
+    {
+      "name": "RedPoplarLeafLitter",
+      "type": "block",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "red_poplar_leaf_litter",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dappled_up/blockstates/red_poplar_leaf_litter.json",
+          "src/main/resources/assets/dappled_up/models/block/red_poplar_leaf_litter_2.json",
+          "src/main/java/net/mornity/dappledup/block/RedPoplarLeafLitterBlock.java",
+          "src/main/resources/assets/dappled_up/models/block/red_poplar_leaf_litter.json",
+          "src/main/resources/assets/dappled_up/models/block/red_poplar_leaf_litter_0.json",
+          "src/main/resources/assets/dappled_up/models/block/red_poplar_leaf_litter_1.json",
+          "src/main/resources/data/dappled_up/loot_table/blocks/red_poplar_leaf_litter.json",
+          "src/main/resources/assets/dappled_up/models/item/red_poplar_leaf_litter.json"
+        ]
+      }
+    },
+    {
+      "name": "LeafLitterFeature",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "leaf_litter_feature",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dappled_up/worldgen/placed_feature/leaf_litter_feature.json",
+          "src/main/resources/data/dappled_up/neoforge/biome_modifier/leaf_litter_feature_biome_modifier.json",
+          "src/main/resources/data/dappled_up/worldgen/configured_feature/leaf_litter_feature.json"
+        ]
+      }
+    },
+    {
+      "name": "RedPoplarLeafLitterBlockValidPlacementCondition",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_poplar_leaf_litter_block_valid_placement_condition",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mornity/dappledup/procedures/RedPoplarLeafLitterBlockValidPlacementConditionProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "YellowPoplarLeafLitter",
+      "type": "block",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "yellow_poplar_leaf_litter",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dappled_up/blockstates/yellow_poplar_leaf_litter.json",
+          "src/main/resources/assets/dappled_up/models/block/yellow_poplar_leaf_litter_0.json",
+          "src/main/java/net/mornity/dappledup/block/YellowPoplarLeafLitterBlock.java",
+          "src/main/resources/data/dappled_up/loot_table/blocks/yellow_poplar_leaf_litter.json",
+          "src/main/resources/assets/dappled_up/models/block/yellow_poplar_leaf_litter_2.json",
+          "src/main/resources/assets/dappled_up/models/block/yellow_poplar_leaf_litter.json",
+          "src/main/resources/assets/dappled_up/models/block/yellow_poplar_leaf_litter_1.json",
+          "src/main/resources/assets/dappled_up/models/item/yellow_poplar_leaf_litter.json"
+        ]
+      }
+    },
+    {
+      "name": "OrangePoplarLeafLitter",
+      "type": "block",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "orange_poplar_leaf_litter",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dappled_up/blockstates/orange_poplar_leaf_litter.json",
+          "src/main/resources/data/dappled_up/loot_table/blocks/orange_poplar_leaf_litter.json",
+          "src/main/resources/assets/dappled_up/models/item/orange_poplar_leaf_litter.json",
+          "src/main/resources/assets/dappled_up/models/block/orange_poplar_leaf_litter.json",
+          "src/main/resources/assets/dappled_up/models/block/orange_poplar_leaf_litter_2.json",
+          "src/main/resources/assets/dappled_up/models/block/orange_poplar_leaf_litter_1.json",
+          "src/main/resources/assets/dappled_up/models/block/orange_poplar_leaf_litter_0.json",
+          "src/main/java/net/mornity/dappledup/block/OrangePoplarLeafLitterBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "PumpkinBlobFeature",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pumpkin_blob_feature",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dappled_up/worldgen/placed_feature/pumpkin_blob_feature.json",
+          "src/main/resources/data/dappled_up/neoforge/biome_modifier/pumpkin_blob_feature_biome_modifier.json",
+          "src/main/resources/data/dappled_up/worldgen/configured_feature/pumpkin_blob_feature.json"
+        ]
+      }
+    },
+    {
+      "name": "RedPoplarLeafParticle",
+      "type": "particle",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "red_poplar_leaf_particle",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mornity/dappledup/client/particle/RedPoplarLeafParticleParticle.java",
+          "src/main/resources/assets/dappled_up/particles/red_poplar_leaf_particle.json"
+        ]
+      }
+    },
+    {
+      "name": "RedPoplarLeavesOnRandomClientDisplayTick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_poplar_leaves_on_random_client_display_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mornity/dappledup/procedures/RedPoplarLeavesOnRandomClientDisplayTickProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "YellowPoplarLeafParticle",
+      "type": "particle",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "yellow_poplar_leaf_particle",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dappled_up/particles/yellow_poplar_leaf_particle.json",
+          "src/main/java/net/mornity/dappledup/client/particle/YellowPoplarLeafParticleParticle.java"
+        ]
+      }
+    },
+    {
+      "name": "OrangePoplarLeafParticle",
+      "type": "particle",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "orange_poplar_leaf_particle",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dappled_up/particles/orange_poplar_leaf_particle.json",
+          "src/main/java/net/mornity/dappledup/client/particle/OrangePoplarLeafParticleParticle.java"
+        ]
+      }
+    },
+    {
+      "name": "YellowPoplarLeavesOnRandomClientDisplayTick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yellow_poplar_leaves_on_random_client_display_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mornity/dappledup/procedures/YellowPoplarLeavesOnRandomClientDisplayTickProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "OrangePoplarLeavesOnRandomClientDisplayTick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orange_poplar_leaves_on_random_client_display_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mornity/dappledup/procedures/OrangePoplarLeavesOnRandomClientDisplayTickProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "RedShrub",
+      "type": "plant",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "red_shrub",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dappled_up/blockstates/red_shrub.json",
+          "src/main/java/net/mornity/dappledup/block/RedShrubBlock.java",
+          "src/main/resources/assets/dappled_up/models/block/red_shrub.json",
+          "src/main/resources/data/dappled_up/loot_table/blocks/red_shrub.json",
+          "src/main/resources/assets/dappled_up/models/item/red_shrub.json"
+        ]
+      }
+    },
+    {
+      "name": "RedShrubFeature",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_shrub_feature",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dappled_up/neoforge/biome_modifier/red_shrub_feature_biome_modifier.json",
+          "src/main/resources/data/dappled_up/worldgen/configured_feature/red_shrub_feature.json",
+          "src/main/resources/data/dappled_up/worldgen/placed_feature/red_shrub_feature.json"
+        ]
+      }
+    },
+    {
+      "name": "ShelfMushroom",
+      "type": "block",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "shelf_mushroom",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mornity/dappledup/block/ShelfMushroomBlock.java",
+          "src/main/resources/assets/dappled_up/blockstates/shelf_mushroom.json",
+          "src/main/resources/assets/dappled_up/models/block/shelf_mushroom_0.json",
+          "src/main/resources/data/dappled_up/loot_table/blocks/shelf_mushroom.json",
+          "src/main/resources/assets/dappled_up/models/block/shelf_mushroom.json",
+          "src/main/resources/assets/dappled_up/models/item/shelf_mushroom.json"
+        ]
+      }
+    },
+    {
+      "name": "ShelfMushroomBlockValidPlacementCondition",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shelf_mushroom_block_valid_placement_condition",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "blockstate",
+            "type": "blockstate"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mornity/dappledup/procedures/ShelfMushroomBlockValidPlacementConditionProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "RedMossBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "red_moss_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mornity/dappledup/block/RedMossBlockBlock.java",
+          "src/main/resources/data/dappled_up/loot_table/blocks/red_moss_block.json",
+          "src/main/resources/assets/dappled_up/models/block/red_moss_block.json",
+          "src/main/resources/assets/dappled_up/models/item/red_moss_block.json",
+          "src/main/resources/assets/dappled_up/blockstates/red_moss_block.json"
+        ]
+      }
+    },
+    {
+      "name": "RedMossCarpet",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_moss_carpet",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dappled_up/blockstates/red_moss_carpet.json",
+          "src/main/resources/data/dappled_up/loot_table/blocks/red_moss_carpet.json",
+          "src/main/resources/assets/dappled_up/models/item/red_moss_carpet.json",
+          "src/main/java/net/mornity/dappledup/block/RedMossCarpetBlock.java",
+          "src/main/resources/assets/dappled_up/models/block/red_moss_carpet.json"
+        ]
+      }
+    },
+    {
+      "name": "RedMossDappledForest",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "red_moss_dappled_forest",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dappled_up/worldgen/placed_feature/red_moss_dappled_forest.json",
+          "src/main/resources/data/dappled_up/worldgen/configured_feature/red_moss_dappled_forest.json",
+          "src/main/resources/data/dappled_up/neoforge/biome_modifier/red_moss_dappled_forest_biome_modifier.json"
+        ]
+      }
+    },
+    {
+      "name": "DappledUpTab",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dappled_up_tab",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "PoplarWood",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "poplar_wood",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dappled_up/blockstates/poplar_wood.json",
+          "src/main/resources/assets/dappled_up/models/item/poplar_wood.json",
+          "src/main/resources/assets/dappled_up/models/block/poplar_wood.json",
+          "src/main/resources/data/dappled_up/loot_table/blocks/poplar_wood.json",
+          "src/main/java/net/mornity/dappledup/block/PoplarWoodBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "StrippedPoplarLog",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stripped_poplar_log",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dappled_up/models/block/stripped_poplar_log.json",
+          "src/main/resources/data/dappled_up/loot_table/blocks/stripped_poplar_log.json",
+          "src/main/resources/assets/dappled_up/models/item/stripped_poplar_log.json",
+          "src/main/resources/assets/dappled_up/blockstates/stripped_poplar_log.json",
+          "src/main/java/net/mornity/dappledup/block/StrippedPoplarLogBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "StrippedPoplarWood",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stripped_poplar_wood",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dappled_up/blockstates/stripped_poplar_wood.json",
+          "src/main/resources/assets/dappled_up/models/item/stripped_poplar_wood.json",
+          "src/main/resources/assets/dappled_up/models/block/stripped_poplar_wood.json",
+          "src/main/resources/data/dappled_up/loot_table/blocks/stripped_poplar_wood.json",
+          "src/main/java/net/mornity/dappledup/block/StrippedPoplarWoodBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "PoplarPlanks",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "poplar_planks",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dappled_up/models/block/poplar_planks.json",
+          "src/main/java/net/mornity/dappledup/block/PoplarPlanksBlock.java",
+          "src/main/resources/assets/dappled_up/models/item/poplar_planks.json",
+          "src/main/resources/data/dappled_up/loot_table/blocks/poplar_planks.json",
+          "src/main/resources/assets/dappled_up/blockstates/poplar_planks.json"
+        ]
+      }
+    },
+    {
+      "name": "PoplarStairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "poplar_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dappled_up/blockstates/poplar_stairs.json",
+          "src/main/resources/assets/dappled_up/models/block/poplar_stairs.json",
+          "src/main/resources/assets/dappled_up/models/block/poplar_stairs_outer.json",
+          "src/main/resources/data/dappled_up/loot_table/blocks/poplar_stairs.json",
+          "src/main/resources/assets/dappled_up/models/item/poplar_stairs.json",
+          "src/main/resources/assets/dappled_up/models/block/poplar_stairs_inner.json",
+          "src/main/java/net/mornity/dappledup/block/PoplarStairsBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "PoplarSlab",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "poplar_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dappled_up/blockstates/poplar_slab.json",
+          "src/main/resources/assets/dappled_up/models/block/poplar_slab.json",
+          "src/main/resources/assets/dappled_up/models/block/poplar_slab_full.json",
+          "src/main/resources/data/dappled_up/loot_table/blocks/poplar_slab.json",
+          "src/main/resources/assets/dappled_up/models/item/poplar_slab.json",
+          "src/main/resources/assets/dappled_up/models/block/poplar_slab_top.json",
+          "src/main/java/net/mornity/dappledup/block/PoplarSlabBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "PoplarFence",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "poplar_fence",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dappled_up/blockstates/poplar_fence.json",
+          "src/main/java/net/mornity/dappledup/block/PoplarFenceBlock.java",
+          "src/main/resources/data/dappled_up/loot_table/blocks/poplar_fence.json",
+          "src/main/resources/assets/dappled_up/models/item/poplar_fence.json",
+          "src/main/resources/assets/dappled_up/models/block/poplar_fence_inventory.json",
+          "src/main/resources/assets/dappled_up/models/block/poplar_fence_post.json",
+          "src/main/resources/assets/dappled_up/models/block/poplar_fence.json"
+        ]
+      }
+    },
+    {
+      "name": "PoplarFenceGate",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "poplar_fence_gate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dappled_up/models/item/poplar_fence_gate.json",
+          "src/main/resources/assets/dappled_up/blockstates/poplar_fence_gate.json",
+          "src/main/resources/assets/dappled_up/models/block/poplar_fence_gate_open.json",
+          "src/main/java/net/mornity/dappledup/block/PoplarFenceGateBlock.java",
+          "src/main/resources/assets/dappled_up/models/block/poplar_fence_gate.json",
+          "src/main/resources/assets/dappled_up/models/block/poplar_fence_gate_wall_open.json",
+          "src/main/resources/data/dappled_up/loot_table/blocks/poplar_fence_gate.json",
+          "src/main/resources/assets/dappled_up/models/block/poplar_fence_gate_wall.json"
+        ]
+      }
+    },
+    {
+      "name": "PoplarDoor",
+      "type": "block",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "poplar_door",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dappled_up/models/block/poplar_door_bottom_left_open.json",
+          "src/main/resources/assets/dappled_up/models/block/poplar_door_top_right.json",
+          "src/main/java/net/mornity/dappledup/block/PoplarDoorBlock.java",
+          "src/main/resources/assets/dappled_up/models/block/poplar_door_bottom_right.json",
+          "src/main/resources/assets/dappled_up/models/block/poplar_door_bottom_right_open.json",
+          "src/main/resources/assets/dappled_up/models/block/poplar_door_top_left_open.json",
+          "src/main/resources/assets/dappled_up/models/block/poplar_door_bottom_left.json",
+          "src/main/resources/assets/dappled_up/models/block/poplar_door_top_left.json",
+          "src/main/resources/assets/dappled_up/models/item/poplar_door.json",
+          "src/main/resources/data/dappled_up/loot_table/blocks/poplar_door.json",
+          "src/main/resources/assets/dappled_up/blockstates/poplar_door.json",
+          "src/main/resources/assets/dappled_up/models/block/poplar_door_top_right_open.json"
+        ]
+      }
+    },
+    {
+      "name": "PoplarTrapdoor",
+      "type": "block",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "poplar_trapdoor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dappled_up/blockstates/poplar_trapdoor.json",
+          "src/main/resources/assets/dappled_up/models/block/poplar_trapdoor.json",
+          "src/main/java/net/mornity/dappledup/block/PoplarTrapdoorBlock.java",
+          "src/main/resources/assets/dappled_up/models/block/poplar_trapdoor_top.json",
+          "src/main/resources/assets/dappled_up/models/item/poplar_trapdoor.json",
+          "src/main/resources/data/dappled_up/loot_table/blocks/poplar_trapdoor.json",
+          "src/main/resources/assets/dappled_up/models/block/poplar_trapdoor_open.json"
+        ]
+      }
+    },
+    {
+      "name": "PoplarPressurePlate",
+      "type": "block",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "poplar_pressure_plate",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mornity/dappledup/block/PoplarPressurePlateBlock.java",
+          "src/main/resources/data/dappled_up/loot_table/blocks/poplar_pressure_plate.json",
+          "src/main/resources/assets/dappled_up/models/item/poplar_pressure_plate.json",
+          "src/main/resources/assets/dappled_up/blockstates/poplar_pressure_plate.json",
+          "src/main/resources/assets/dappled_up/models/block/poplar_pressure_plate.json",
+          "src/main/resources/assets/dappled_up/models/block/poplar_pressure_plate_down.json"
+        ]
+      }
+    },
+    {
+      "name": "PoplarButton",
+      "type": "block",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "poplar_button",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dappled_up/blockstates/poplar_button.json",
+          "src/main/resources/assets/dappled_up/models/block/poplar_button.json",
+          "src/main/resources/assets/dappled_up/models/block/poplar_button_inventory.json",
+          "src/main/resources/data/dappled_up/loot_table/blocks/poplar_button.json",
+          "src/main/java/net/mornity/dappledup/block/PoplarButtonBlock.java",
+          "src/main/resources/assets/dappled_up/models/item/poplar_button.json",
+          "src/main/resources/assets/dappled_up/models/block/poplar_button_pressed.json"
+        ]
+      }
+    },
+    {
+      "name": "PoplarSign",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "poplar_sign",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dappled_up/models/item/poplar_sign.json",
+          "src/main/resources/assets/dappled_up/models/block/poplar_sign.json",
+          "src/main/resources/data/dappled_up/loot_table/blocks/poplar_sign.json",
+          "src/main/java/net/mornity/dappledup/block/PoplarSignBlock.java",
+          "src/main/java/net/mornity/dappledup/block/PoplarWallSignBlock.java",
+          "src/main/resources/assets/dappled_up/blockstates/poplar_wall_sign.json",
+          "src/main/resources/assets/dappled_up/blockstates/poplar_sign.json"
+        ]
+      }
+    },
+    {
+      "name": "PoplarHangingSign",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "poplar_hanging_sign",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dappled_up/blockstates/poplar_hanging_sign.json",
+          "src/main/resources/assets/dappled_up/models/block/poplar_hanging_sign.json",
+          "src/main/resources/data/dappled_up/loot_table/blocks/poplar_hanging_sign.json",
+          "src/main/resources/assets/dappled_up/models/item/poplar_hanging_sign.json",
+          "src/main/java/net/mornity/dappledup/block/PoplarHangingSignBlock.java",
+          "src/main/java/net/mornity/dappledup/block/PoplarWallHangingSignBlock.java",
+          "src/main/resources/assets/dappled_up/blockstates/poplar_wall_hanging_sign.json"
+        ]
+      }
+    },
+    {
+      "name": "PoplarBoat",
+      "type": "specialentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "poplar_boat",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dappled_up/models/item/poplar_boat.json"
+        ]
+      }
+    },
+    {
+      "name": "PoplarBoatWithChest",
+      "type": "specialentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "poplar_boat_with_chest",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dappled_up/models/item/poplar_boat_with_chest.json"
+        ]
+      }
+    },
+    {
+      "name": "RedPoplarSapling",
+      "type": "plant",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_poplar_sapling",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dappled_up/models/block/red_poplar_sapling.json",
+          "src/main/resources/data/dappled_up/loot_table/blocks/red_poplar_sapling.json",
+          "src/main/java/net/mornity/dappledup/block/RedPoplarSaplingBlock.java",
+          "src/main/resources/assets/dappled_up/blockstates/red_poplar_sapling.json",
+          "src/main/resources/assets/dappled_up/models/item/red_poplar_sapling.json"
+        ]
+      }
+    },
+    {
+      "name": "YellowPoplarSapling",
+      "type": "plant",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yellow_poplar_sapling",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mornity/dappledup/block/YellowPoplarSaplingBlock.java",
+          "src/main/resources/assets/dappled_up/blockstates/yellow_poplar_sapling.json",
+          "src/main/resources/assets/dappled_up/models/item/yellow_poplar_sapling.json",
+          "src/main/resources/data/dappled_up/loot_table/blocks/yellow_poplar_sapling.json",
+          "src/main/resources/assets/dappled_up/models/block/yellow_poplar_sapling.json"
+        ]
+      }
+    },
+    {
+      "name": "OrangePoplarSapling",
+      "type": "plant",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orange_poplar_sapling",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dappled_up/loot_table/blocks/orange_poplar_sapling.json",
+          "src/main/resources/assets/dappled_up/models/block/orange_poplar_sapling.json",
+          "src/main/resources/assets/dappled_up/blockstates/orange_poplar_sapling.json",
+          "src/main/java/net/mornity/dappledup/block/OrangePoplarSaplingBlock.java",
+          "src/main/resources/assets/dappled_up/models/item/orange_poplar_sapling.json"
+        ]
+      }
+    },
+    {
+      "name": "RedPoplarLeafBushBlockValidPlacementCondition",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_poplar_leaf_bush_block_valid_placement_condition",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mornity/dappledup/procedures/RedPoplarLeafBushBlockValidPlacementConditionProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "RecipePoplarBoat",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "recipe_poplar_boat",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dappled_up/recipe/recipe_poplar_boat.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "RecipePoplarButton",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "recipe_poplar_button",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dappled_up/recipe/recipe_poplar_button.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "RecipePoplarChestBoat",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "recipe_poplar_chest_boat",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dappled_up/recipe/recipe_poplar_chest_boat.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "RecipePoplarDoor",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "recipe_poplar_door",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dappled_up/recipe/recipe_poplar_door.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "RecipePoplarFence",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "recipe_poplar_fence",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dappled_up/recipe/recipe_poplar_fence.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "RecipePoplarFenceGate",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "recipe_poplar_fence_gate",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dappled_up/recipe/recipe_poplar_fence_gate.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "RecipePoplarHangingSign",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "recipe_poplar_hanging_sign",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dappled_up/recipe/recipe_poplar_hanging_sign.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "RecipePoplarPlanks",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "recipe_poplar_planks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dappled_up/recipe/recipe_poplar_planks.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "RecipePoplarPressurePlate",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "recipe_poplar_pressure_plate",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dappled_up/recipe/recipe_poplar_pressure_plate.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "RecipePoplarSign",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "recipe_poplar_sign",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dappled_up/recipe/recipe_poplar_sign.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "RecipePoplarSlab",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "recipe_poplar_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dappled_up/recipe/recipe_poplar_slab.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "RecipePoplarStairs",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "recipe_poplar_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dappled_up/recipe/recipe_poplar_stairs.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "RecipePoplarTrapdoor",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "recipe_poplar_trapdoor",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dappled_up/recipe/recipe_poplar_trapdoor.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "RecipePoplarWood",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "recipe_poplar_wood",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dappled_up/recipe/recipe_poplar_wood.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "RecipeStrippedPoplarWood",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "recipe_stripped_poplar_wood",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dappled_up/recipe/recipe_stripped_poplar_wood.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "RecipeRedPoplarLeafLitter",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "recipe_red_poplar_leaf_litter",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dappled_up/recipe/recipe_red_poplar_leaf_litter.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "RecipeYellowPoplarLeafLitter",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "recipe_yellow_poplar_leaf_litter",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dappled_up/recipe/recipe_yellow_poplar_leaf_litter.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "RecipeOrangePoplarLeafLitter",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "recipe_orange_poplar_leaf_litter",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dappled_up/recipe/recipe_orange_poplar_leaf_litter.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "RecipeRedMossCarpet",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "recipe_red_moss_carpet",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dappled_up/recipe/recipe_red_moss_carpet.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "RecipeRabbitStew",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "recipe_rabbit_stew",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dappled_up/recipe/recipe_rabbit_stew.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "RecipeMushroomStew",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "recipe_mushroom_stew",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/recipe/mushroom_stew.json"
+        ]
+      },
+      "path": "~/Recipes"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "poplar_ambient",
+      "files": [
+        "ambient1",
+        "ambient2",
+        "ambient3",
+        "ambient4",
+        "ambient5",
+        "ambient6",
+        "ambient7",
+        "ambient8",
+        "ambient9",
+        "ambient10",
+        "ambient11",
+        "ambient12",
+        "ambient13",
+        "ambient14",
+        "ambient15",
+        "ambient17",
+        "ambient18",
+        "ambient19"
+      ],
+      "category": "ambient",
+      "subtitle": "Leaves rattle"
+    },
+    {
+      "name": "poplar_wind",
+      "files": [
+        "wind1",
+        "wind2",
+        "wind3"
+      ],
+      "category": "ambient",
+      "subtitle": "Wind whistles"
+    }
+  ],
+  "tag_elements": {
+    "BLOCKS:minecraft:mineable/axe": [
+      "~CUSTOM:PoplarHangingSign.wall",
+      "~CUSTOM:PoplarHangingSign",
+      "~CUSTOM:PoplarSign.wall",
+      "~CUSTOM:PoplarSign",
+      "~CUSTOM:PoplarFenceGate",
+      "~CUSTOM:PoplarFence",
+      "~CUSTOM:PoplarSlab",
+      "~CUSTOM:PoplarStairs",
+      "~CUSTOM:PoplarPlanks",
+      "~CUSTOM:StrippedPoplarWood",
+      "~CUSTOM:StrippedPoplarLog",
+      "~CUSTOM:PoplarWood",
+      "~CUSTOM:PoplarLog"
+    ],
+    "BLOCKS:minecraft:leaves": [],
+    "BLOCKS:minecraft:logs": [
+      "CUSTOM:PoplarLog"
+    ],
+    "BLOCKS:mod:leaf_bush": [
+      "CUSTOM:RedPoplarLeafBush",
+      "CUSTOM:YellowPoplarLeafBush",
+      "CUSTOM:OrangePoplarLeafBush"
+    ],
+    "BLOCKS:minecraft:replaceable": [],
+    "BLOCKS:minecraft:mineable/hoe": [
+      "~CUSTOM:RedMossCarpet"
+    ],
+    "BLOCKS:minecraft:stairs": [
+      "~CUSTOM:PoplarStairs"
+    ],
+    "BLOCKS:minecraft:slabs": [
+      "~CUSTOM:PoplarSlab"
+    ],
+    "BLOCKS:minecraft:wooden_fences": [
+      "~CUSTOM:PoplarFence"
+    ],
+    "BLOCKS:minecraft:wooden_doors": [],
+    "BLOCKS:minecraft:wooden_trapdoors": [],
+    "BLOCKS:minecraft:wooden_pressure_plates": [],
+    "BLOCKS:minecraft:wooden_buttons": [],
+    "BLOCKS:minecraft:standing_signs": [
+      "~CUSTOM:PoplarSign"
+    ],
+    "BLOCKS:minecraft:wall_signs": [
+      "~CUSTOM:PoplarSign.wall"
+    ],
+    "BLOCKS:minecraft:ceiling_hanging_signs": [
+      "~CUSTOM:PoplarHangingSign"
+    ],
+    "BLOCKS:minecraft:wall_hanging_signs": [
+      "~CUSTOM:PoplarHangingSign.wall"
+    ],
+    "BLOCKS:minecraft:saplings": [
+      "~CUSTOM:OrangePoplarSapling",
+      "~CUSTOM:YellowPoplarSapling",
+      "~CUSTOM:RedPoplarSapling"
+    ],
+    "BLOCKS:minecraft:mineable/shears": [
+      "CUSTOM:RedPoplarLeafBush",
+      "CUSTOM:YellowPoplarLeafBush",
+      "CUSTOM:OrangePoplarLeafBush"
+    ],
+    "BLOCKS:mod:poplar_logs": [
+      "CUSTOM:PoplarLog",
+      "CUSTOM:PoplarWood",
+      "CUSTOM:StrippedPoplarLog",
+      "CUSTOM:StrippedPoplarWood"
+    ],
+    "BLOCKS:minecraft:logs_that_burn": [
+      "TAG:mod:poplar_logs"
+    ],
+    "BLOCKS:minecraft:overworld_natural_logs": [
+      "CUSTOM:PoplarLog"
+    ],
+    "BLOCKS:minecraft:planks": [
+      "CUSTOM:PoplarPlanks"
+    ],
+    "BLOCKS:minecraft:replaceable_by_mushrooms": [
+      "CUSTOM:RedShrub",
+      "CUSTOM:RedPoplarLeafLitter",
+      "CUSTOM:YellowPoplarLeafLitter",
+      "CUSTOM:OrangePoplarLeafLitter"
+    ],
+    "BLOCKS:minecraft:replaceable_by_trees": [
+      "CUSTOM:RedShrub",
+      "CUSTOM:RedPoplarLeafLitter",
+      "CUSTOM:YellowPoplarLeafLitter",
+      "CUSTOM:OrangePoplarLeafLitter"
+    ],
+    "BLOCKS:minecraft:inside_step_sound_blocks": [
+      "CUSTOM:RedPoplarLeafLitter",
+      "CUSTOM:YellowPoplarLeafLitter",
+      "CUSTOM:OrangePoplarLeafLitter"
+    ],
+    "BLOCKS:minecraft:moss_blocks": [
+      "CUSTOM:RedMossBlock"
+    ],
+    "BLOCKS:minecraft:sniffer_egg_hatch_boost": [
+      "CUSTOM:RedMossBlock"
+    ],
+    "ITEMS:minecraft:boats": [
+      "CUSTOM:PoplarBoat"
+    ],
+    "ITEMS:minecraft:chest_boats": [
+      "CUSTOM:PoplarBoatWithChest"
+    ],
+    "ITEMS:minecraft:fence_gates": [
+      "CUSTOM:PoplarFenceGate"
+    ],
+    "ITEMS:minecraft:hanging_signs": [
+      "CUSTOM:PoplarHangingSign"
+    ],
+    "ITEMS:minecraft:leaves": [
+      "CUSTOM:RedPoplarLeaves",
+      "CUSTOM:YellowPoplarLeaves",
+      "CUSTOM:OrangePoplarLeaves"
+    ],
+    "ITEMS:minecraft:logs_that_burn": [
+      "TAG:mod:poplar_logs"
+    ],
+    "ITEMS:mod:poplar_logs": [
+      "CUSTOM:PoplarLog",
+      "CUSTOM:PoplarWood",
+      "CUSTOM:StrippedPoplarLog",
+      "CUSTOM:StrippedPoplarWood"
+    ],
+    "ITEMS:minecraft:planks": [
+      "CUSTOM:PoplarPlanks"
+    ],
+    "ITEMS:minecraft:saplings": [
+      "CUSTOM:OrangePoplarSapling",
+      "CUSTOM:YellowPoplarSapling",
+      "CUSTOM:RedPoplarSapling"
+    ],
+    "ITEMS:minecraft:signs": [
+      "CUSTOM:PoplarSign"
+    ],
+    "ITEMS:minecraft:wooden_buttons": [
+      "CUSTOM:PoplarButton"
+    ],
+    "ITEMS:minecraft:wooden_doors": [
+      "CUSTOM:PoplarDoor"
+    ],
+    "ITEMS:minecraft:wooden_fences": [
+      "CUSTOM:PoplarFence"
+    ],
+    "ITEMS:minecraft:wooden_pressure_plates": [
+      "CUSTOM:PoplarPressurePlate"
+    ],
+    "ITEMS:minecraft:wooden_trapdoors": [
+      "CUSTOM:PoplarTrapdoor"
+    ],
+    "ITEMS:minecraft:wooden_slabs": [
+      "CUSTOM:PoplarSlab"
+    ],
+    "ITEMS:minecraft:wooden_stairs": [
+      "CUSTOM:PoplarStairs"
+    ],
+    "ITEMS:mod:mushrooms": [
+      "Blocks.RED_MUSHROOM",
+      "Blocks.BROWN_MUSHROOM",
+      "CUSTOM:ShelfMushroom"
+    ]
+  },
+  "tab_element_order": {
+    "CUSTOM:DappledUpTab": [
+      "PoplarLog",
+      "PoplarWood",
+      "StrippedPoplarLog",
+      "StrippedPoplarWood",
+      "PoplarPlanks",
+      "PoplarStairs",
+      "PoplarSlab",
+      "PoplarFence",
+      "PoplarFenceGate",
+      "PoplarDoor",
+      "PoplarTrapdoor",
+      "PoplarPressurePlate",
+      "PoplarButton",
+      "PoplarSign",
+      "PoplarHangingSign",
+      "PoplarBoat",
+      "PoplarBoatWithChest",
+      "RedPoplarLeaves",
+      "YellowPoplarLeaves",
+      "OrangePoplarLeaves",
+      "RedPoplarSapling",
+      "YellowPoplarSapling",
+      "OrangePoplarSapling",
+      "RedPoplarLeafBush",
+      "YellowPoplarLeafBush",
+      "OrangePoplarLeafBush",
+      "RedPoplarLeafLitter",
+      "YellowPoplarLeafLitter",
+      "OrangePoplarLeafLitter",
+      "RedShrub",
+      "ShelfMushroom",
+      "RedMossBlock",
+      "RedMossCarpet"
+    ]
+  },
+  "language_map": {
+    "en_us": {
+      "biome.dappled_up.dappled_forest": "Dappled Forest",
+      "block.dappled_up.poplar_log": "Poplar Log",
+      "block.dappled_up.red_poplar_leaves": "Red Poplar Leaves",
+      "block.dappled_up.yellow_poplar_leaves": "Yellow Poplar Leaves",
+      "block.dappled_up.orange_poplar_leaves": "Orange Poplar Leaves",
+      "block.dappled_up.red_poplar_leaf_bush": "Red Poplar Leaf Bush",
+      "block.dappled_up.yellow_poplar_leaf_bush": "Yellow Poplar Leaf Bush",
+      "block.dappled_up.orange_poplar_leaf_bush": "Orange Poplar Leaf Bush",
+      "block.dappled_up.red_poplar_leaf_litter": "Red Poplar Leaf Litter",
+      "block.dappled_up.yellow_poplar_leaf_litter": "Yellow Poplar Leaf Litter",
+      "block.dappled_up.orange_poplar_leaf_litter": "Orange Poplar Leaf Litter",
+      "block.dappled_up.red_shrub": "Red Shrub",
+      "block.dappled_up.shelf_mushroom": "Shelf Mushroom",
+      "block.dappled_up.red_moss_block": "Red Moss Block",
+      "block.dappled_up.red_moss_carpet": "Red Moss Carpet",
+      "item_group.dappled_up.dappled_up_tab": "Dappled Up - Content",
+      "block.dappled_up.poplar_wood": "Poplar Wood",
+      "block.dappled_up.stripped_poplar_log": "Stripped Poplar Log",
+      "block.dappled_up.stripped_poplar_wood": "Stripped Poplar Wood",
+      "block.dappled_up.poplar_planks": "Poplar Planks",
+      "block.dappled_up.poplar_stairs": "Poplar Stairs",
+      "block.dappled_up.poplar_slab": "Poplar Slab",
+      "block.dappled_up.poplar_fence": "Poplar Fence",
+      "block.dappled_up.poplar_fence_gate": "Poplar Fence Gate",
+      "block.dappled_up.poplar_door": "Poplar Door",
+      "block.dappled_up.poplar_trapdoor": "Poplar Trapdoor",
+      "block.dappled_up.poplar_pressure_plate": "Poplar Pressure Plate",
+      "block.dappled_up.poplar_button": "Poplar Button",
+      "block.dappled_up.poplar_sign": "Poplar Sign",
+      "block.dappled_up.poplar_hanging_sign": "Poplar Hanging Sign",
+      "item.dappled_up.poplar_boat": "Poplar Boat",
+      "item.dappled_up.poplar_boat_with_chest": "Poplar Boat with Chest",
+      "block.dappled_up.red_poplar_sapling": "Red Poplar Sapling",
+      "block.dappled_up.yellow_poplar_sapling": "Yellow Poplar Sapling",
+      "block.dappled_up.orange_poplar_sapling": "Orange Poplar Sapling",
+      "subtitles.poplar_ambient": "Leaves rattle",
+      "subtitles.poplar_wind": "Wind whistles"
+    }
+  },
+  "metadata": {
+    "files": [
+      "src/main/java/net/mornity/dappledup/init/DappledUpModWoodTypes.java",
+      "src/main/java/net/mornity/dappledup/init/DappledUpModParticles.java",
+      "src/main/java/net/mornity/dappledup/init/DappledUpModParticleTypes.java",
+      "src/main/java/net/mornity/dappledup/init/DappledUpModBoatTypes.java",
+      "src/main/java/net/mornity/dappledup/init/DappledUpModBlocks.java",
+      "src/main/java/net/mornity/dappledup/init/DappledUpModItems.java",
+      "src/main/java/net/mornity/dappledup/init/DappledUpModTabs.java",
+      "src/main/java/net/mornity/dappledup/client/ItemArms.java",
+      "src/main/resources/META-INF/accesstransformer.cfg",
+      "src/main/java/net/mornity/dappledup/init/DappledUpModDispenseBehaviors.java",
+      "src/main/java/net/mornity/dappledup/DappledUpMod.java",
+      "src/main/resources/assets/dappled_up/sounds.json",
+      "src/main/java/net/mornity/dappledup/client/RenderUtils.java",
+      "src/main/java/net/mornity/dappledup/init/DappledUpModSounds.java",
+      "src/main/resources/META-INF/neoforge.mods.toml",
+      "src/main/resources/pack.mcmeta",
+      "src/main/resources/META-INF/enumextensions.json"
+    ]
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Recipes",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "dappled_up",
+    "modName": "Dappled Up",
+    "version": "1.0",
+    "description": "This mod backports and revamps the \"Dappled Forest\"! Experience the forest with a fresh new look including new moss, more foliage, and more!",
+    "author": "Mornity",
+    "websiteURL": "https://minecraft.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "modPicture": "test",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "neoforge-1.21.1",
+    "credits": "Mojang",
+    "modElementsPackage": "net.mornity.dappledup"
+  },
+  "mcreatorVersion": 202600114619
+}
