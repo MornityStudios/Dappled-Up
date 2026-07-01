@@ -13,6 +13,7 @@ import net.neoforged.fml.common.Mod;
 import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.bus.api.IEventBus;
 
+import net.mornity.dappledup.world.biome.DappledUpBiomeRegistry;
 import net.mornity.dappledup.init.DappledUpModTabs;
 import net.mornity.dappledup.init.DappledUpModSounds;
 import net.mornity.dappledup.init.DappledUpModParticleTypes;
@@ -41,6 +42,7 @@ public class DappledUpMod {
 
 	public DappledUpMod(IEventBus modEventBus) {
 		// Start of user code block mod constructor
+		DappledUpBiomeRegistry.register();
 		// End of user code block mod constructor
 		NeoForge.EVENT_BUS.register(this);
 		modEventBus.addListener(this::registerNetworking);
